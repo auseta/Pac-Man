@@ -1,0 +1,104 @@
+@font-face {
+    font-family:"Pacmania";
+    src:url("./assets/Pacmania/Pacmania.eot") format("eot"),
+    url("./assets/Pacmania/Pacmania.woff") format("woff"),
+    url("./assets/Pacmania/Pacmania.ttf") format("truetype"),
+    url("./assets/Pacmania/Pacmania.svg#Pacmania") format("svg");
+    font-weight:normal;font-style:normal;
+}
+
+* {
+    overflow: hidden;
+}
+
+body {
+    background-image: url("./assets/pac-wall.jpg");
+}
+
+h1 {
+    font-family: 'Pacmania';
+    font-weight: 500;
+    margin: 10px 250px 30px 250px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid yellow;
+    color: yellow;
+    background-color: black;
+}
+
+h3 {
+    font-family: 'Pacmania', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: yellow;
+}
+
+h3 span {
+    font-family: cursive;
+}
+
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    width: 560px;
+    height: 560px;
+    background-color: white;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border-radius: 10px;
+}
+
+.blinky {
+    background-color: red;
+    border: 0px;
+}
+
+.pinky {
+    background-color: pink;
+    border: 0px;
+}
+
+.inky {
+    background-color: cyan;
+    border: 0px;
+}
+
+.clyde {
+    background-color: orange;
+    border: 0px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
+    border: 0px;
+}
+
+
+
+
+
+
+
+.pac-man {
+    background-color: rgb(255, 255, 4);
+    border-radius: 10px;
+}
